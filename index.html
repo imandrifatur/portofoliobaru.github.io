@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Pengembangan CodeIgniter</title>
+    <style>
+    /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Fixed Navbar */
+.fixed-navbar {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.fixed-navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-navbar ul li {
+    margin: 0 15px;
+}
+
+.fixed-navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+.fixed-navbar ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    padding: 100px 20px 60px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 0;
+}
+
+/* Project Card Styles */
+.project-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+button {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .fixed-navbar ul {
+        flex-direction: column;
+    }
+
+    .project-card {
+        padding: 15px;
+    }
+
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <nav class="fixed-navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="header-content">
+            <img src="images/profil.jpeg" alt="Profile Photo" class="profile-photo">
+            <h1>Portofolio Pengembangan Aplikasi</h1>
+<p>Pengalaman terbaik dalam mengembangkan aplikasi web berkualitas tinggi dengan menggunakan framework <strong>CodeIgniter</strong>. Dengan fokus pada performa, skalabilitas, dan antarmuka yang ramah pengguna, setiap solusi dirancang untuk memberikan nilai nyata bagi bisnis.</p>
+<p>Dari <strong>Customer Relationship Management (CRM)</strong> hingga <strong>Supply Chain Management</strong>, <strong>Purchase Order</strong>, dan modul keuangan seperti <strong>Accounts Receivable (AR)</strong> dan <strong>Accounts Payable (AP)</strong>, setiap aplikasi yang saya kembangkan bertujuan menyederhanakan proses dan mempercepat pertumbuhan perusahaan.</p>
+
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Halo! Saya Imandri Faturahman, seorang IT Programmer yang berdedikasi di PT Tribuana Gasindo Abadi. Dengan pengalaman bertahun-tahun di industri teknologi, saya telah mengembangkan beragam solusi inovatif untuk memenuhi kebutuhan perusahaan, khususnya dalam sistem berbasis ERP.
+
+Sebagai spesialis dalam pengembangan aplikasi dengan framework CodeIgniter, saya telah memimpin dan berkontribusi pada berbagai proyek sistem terintegrasi, termasuk:
+
+CRM (Customer Relationship Management): Mengelola dan meningkatkan interaksi pelanggan dengan fitur pelacakan peluang, manajemen kontak, hingga pelaporan terperinci.
+Supply Chains: Sistem rantai pasokan yang membantu memonitor pengadaan, distribusi, dan pengelolaan stok barang secara efisien.
+Purchase Slip: Modul yang memudahkan proses pembelian, pencatatan, dan pemantauan pesanan ke pemasok.
+Accounts Receivable (AR) dan Accounts Payable (AP): Mengotomatisasi manajemen piutang pelanggan dan pembayaran kepada pemasok, termasuk pelacakan status faktur, pengingat jatuh tempo, serta integrasi pelaporan.
+Dengan fokus pada kinerja, keamanan, dan skalabilitas, saya bangga menciptakan solusi yang tidak hanya menjawab kebutuhan bisnis saat ini, tetapi juga siap menghadapi tantangan masa depan. Mari bertemu untuk berbicara tentang bagaimana teknologi dapat memajukan bisnis Anda!</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project-card">
+                <h3>Sistem Manajemen Inventaris Barang</h3>
+                <p>Deskripsi: Mengelola stok barang untuk perusahaan distribusi.</p>
+                <button onclick="toggleDetails('details1')">Lihat Detail</button>
+                <div id="details1" class="details">
+                    <p><strong>Fitur Utama:</strong> CRUD data barang, laporan PDF & Excel.</p>
+                    <p><strong>Teknologi:</strong> CodeIgniter 3, MySQL, Bootstrap.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Aplikasi Pemesanan dan Perbaikan Kendaraan</h3>
+                <p>Deskripsi: Mengelola status perbaikan kendaraan secara real-time.</p>
+                <button onclick="toggleDetails('details2')">Lihat Detail</button>
+                <div id="details2" class="details">
+                    <p><strong>Fitur Utama:</strong> Pendaftaran kendaraan, laporan per bulan.</p>
+                    <p><strong>Teknologi:</strong> CodeIgniter 4, jQuery, Bootstrap.</p>
+                </div>
+            </div>
+
+            <!-- Project tambahan -->
+            <div class="project-card">
+                <h3>Sistem Pengelolaan Purchase</h3>
+                <p>Deskripsi: Mengelola permintaan dan pembelian barang dari supplier.</p>
+                <button onclick="toggleDetails('details3')">Lihat Detail</button>
+                <div id="details3" class="details">
+                    <p><strong>Fitur Utama:</strong> Pencatatan pembelian, integrasi dengan laporan keuangan.</p>
+                    <p><strong>Teknologi:</strong> CodeIgniter 4, MySQL, Bootstrap.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Sistem Pengelolaan Accounts Receivable (AR)</h3>
+                <p>Deskripsi: Mengelola piutang pelanggan dengan pencatatan faktur dan pembayaran.</p>
+                <button onclick="toggleDetails('details4')">Lihat Detail</button>
+                <div id="details4" class="details">
+                    <p><strong>Fitur Utama:</strong> Pembuatan faktur, pengingat jatuh tempo.</p>
+                    <p><strong>Teknologi:</strong> CodeIgniter 3, jQuery, Bootstrap.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Sistem Pengelolaan Accounts Payable (AP)</h3>
+                <p>Deskripsi: Mengelola pembayaran kepada supplier.</p>
+                <button onclick="toggleDetails('details5')">Lihat Detail</button>
+                <div id="details5" class="details">
+                    <p><strong>Fitur Utama:</strong> Manajemen tagihan, pelacakan status pembayaran.</p>
+                    <p><strong>Teknologi:</strong> CodeIgniter 3, Bootstrap, MySQL.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: andrifatur85@gmail.com</p>
+            <p>Phone: 085959566070</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Imandrifatur</p>
+    </footer>
+
+    <script>
+    function toggleDetails(id) {
+    const details = document.getElementById(id);
+    if (details.style.display === 'block') {
+        details.style.display = 'none';
+    } else {
+        details.style.display = 'block';
+    }
+}
+
+    </script>
+</body>
+</html>
